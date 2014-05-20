@@ -10,10 +10,16 @@ doc.xpath("book/level1").each do |tag|
 		depth=1
 		o.write("<unit label='part' identifier=#{part_count.to_s} order_by=#{part_count.to_s} level=#{depth.to_s}>#{part.content}</unit>\n")
 		article_count=1
-		tag.xpath("level2/breadcrumbs/crumb[3]/caption").each do |article|
+		tag.xpath("level2").each do |article|
 			depth=2
-			o.write("<unit label='article' identifier=#{part_count.to_s+'.'+article_count.to_s} order_by=#{part_count.to_s+'.'+article_count.to_s} level=#{depth.to_s}>#{article.content}</unit>\n")
+			o.write("<unit label='article' identifier=#{part_count.to_s+'.'+article_count.to_s} order_by=#{part_count.to_s+'.'+article_count.to_s} level=#{depth.to_s}>#{article.xpath('breadcrumbs/crumb[3]/caption')[0].content}</unit>\n")
 			article_count+=1
+			chapter_count=1
+			article.xpath("level3").each do |chapter|
+				depth=3
+				o.write("<unit label='chapter' identifier=#{part_count.to_s+'.'+article_count.to_s+'.'+chapter_count.to_s} order_by=#{part_count.to_s+'.'+article_count.to_s+'.'+chapter_count.to_s} level=#{depth.to_s}>#{chapter.xpath('breadcrumbs/crumb[4]/caption')[0].content}</unit>\n")
+				chapter_count+=1
+			end
 		end
 	end
 	part_count+=1
