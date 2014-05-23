@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<law>
+	<law_id>7555</law_id>
+	<section_number>1-101</section_number>
+	<catch_line>Territorial area.</catch_line>
+	<history>
+</history>
+<order_by>0000000000</order_by>
+<text>
+	<section id="62818" prefix="">
+		<text>
+			The District of Columbia is that portion of the territory of the United States ceded by the State of Maryland for the permanent seat of government of the United States, including the river Potomac in its course through the District, and the islands therein.
+		</text>
+		<type>section</type>
+		<prefixes>
+			<section/>
+		</prefixes>
+			<level>1</level>
+	</section>
+	<section id="62819" prefix=""><text/>
+				<type>section</type>
+				<prefixes>
+					<section/><section/>
+				</prefixes>
+				<entire_prefix/>
+				<prefix_anchor/>
+				<level>2</level>
+	</section>
+</text>
+			
+			<url>1-101</url>
+			<token>1-101</token>
+			<structure>
+				<unit label="Division" level="1" identifier="I">Government of District.</unit>
+				<unit label="Title" level="2" identifier="1">Government Organization. (Refs </unit>
+				<unit label="Chapter" level="3" identifier="1">District of Columbia Government Development.</unit>
+				<unit label="Subchapter" level="4" identifier="I">District of Columbia Establishment.</unit>
+			</structure>
+</law>
