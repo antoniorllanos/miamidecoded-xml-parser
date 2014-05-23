@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<law>
+<structure>
+<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='1.2' order_by='1.2' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier='1.2.1' order_by='1.2.1' level='3'>ARTICLE I. IN GENERAL</unit>
+</structure>
+<section_number>2-8.1.2</section_number>
+<catch_line>Drug-free workplace requirements for contractors and entities transacting business with Miami-Dade County.</catch_line>
+<order_by>1.2.1.15</order_by>
+<text>
+<section>Sec. 2-8.1.2. Drug-free workplace requirements for contractors and entities transacting business with Miami-Dade County.</section>
+</text>
+</law>
