@@ -57,7 +57,10 @@ doc.xpath("book/level1").each do |part|
 								o.write("<section_number>#{section_name}</section_number>\n")
 								o.write("<catch_line>#{section.xpath('subtitle[1]')[0].content.strip}</catch_line>\n")
 								o.write("<order_by>#{order_by(global_section_count)}</order_by>\n")
-								o.write("<text>\n<section>#{section.xpath('title[1]')[0].content.strip+' '+section.xpath('subtitle[1]')[0].content.strip}</section>\n</text>\n")
+								#o.write("<text>\n<section>#{section.xpath('title[1]')[0].content.strip+' '+section.xpath('subtitle[1]')[0].content.strip}</section>\n</text>\n")
+								section.xpath('para|listitem').each do |item|
+									puts item.name
+								end
 								#section.xpath("para").each do |para|
 									#o.write(para.content)
 								#end
