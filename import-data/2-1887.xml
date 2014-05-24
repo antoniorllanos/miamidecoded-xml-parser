@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<law>
+<structure>
+<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='1.2' order_by='1.2' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier='1.2.142' order_by='1.2.142' level='3'>ARTICLE CXXIII. NW 7TH AVENUE CORRIDOR COMMUNITY REDEVELOPMENT AGENCY</unit>
+</structure>
+<section_number>2-1887</section_number>
+<catch_line>Staff.</catch_line>
+<order_by>1.2.142.7</order_by>
+<text>
+<section>Sec. 2-1887. Staff.</section>
+</text>
+</law>

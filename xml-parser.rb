@@ -1,6 +1,6 @@
 
 require 'nokogiri'
-f=File.open("test_short.xml","r+")
+f=File.open("test_data.xml","r+")
 doc=Nokogiri::XML(f)
 part_count=1
 doc.xpath("book/level1").each do |tag|
@@ -19,8 +19,8 @@ doc.xpath("book/level1").each do |tag|
 						section_count=1
 						article.xpath("section").each do |section|
 							depth=4
-							section_name=section.xpath('title[1]')[0].content.strip.split(" ")[1][0..-2]
-							o=File.open("parsed/#{section_name}.xml","w+")
+							section_name=section.xpath('title[1]')[0].content.strip.split(" ")[-1][0..-2]
+							o=File.open("import-data/#{section_name}.xml","w+")
 							o.write("<?xml version='1.0' encoding='utf-8'?>\n")
 							o.write("<law>\n<structure>\n")
 							o.write("<unit label='part' identifier='#{part_count.to_s}' order_by='#{part_count.to_s}' level='#{(depth-3).to_s}'>#{part.content.strip}</unit>\n")
@@ -45,8 +45,8 @@ doc.xpath("book/level1").each do |tag|
 						section_count=1
 						chapter.xpath("section").each do |section|
 								depth=3
-								section_name=section.xpath('title[1]')[0].content.strip.split(" ")[1][0..-2]
-								o=File.open("parsed/#{section_name}.xml","w+")
+								section_name=section.xpath('title[1]')[0].content.strip.split(" ")[-1][0..-2]
+								o=File.open("import-data/#{section_name}.xml","w+")
 								o.write("<?xml version='1.0' encoding='utf-8'?>\n")
 								o.write("<law>\n<structure>\n")
 								o.write("<unit label='part' identifier='#{part_count.to_s}' order_by='#{part_count.to_s}' level='#{(depth-2).to_s}'>#{part.content.strip}</unit>\n")
