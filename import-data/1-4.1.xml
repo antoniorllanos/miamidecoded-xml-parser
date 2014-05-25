@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<law>
+<structure>
+<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='1.1' order_by='1.1' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
+</structure>
+<section_number>1-4.1</section_number>
+<catch_line>Administrative amendments to Code; power of the County Attorney.</catch_line>
+<order_by>0000000005</order_by>
+<text>
+<section>Sec. 1-4.1. Administrative amendments to Code; power of the County Attorney.
+<section>The Board of County Commissioners hereby authorizes the County Attorney to administratively amend, from time to time, the Code of Miami-Dade County solely for the purpose of conforming said ordinances to any change in numbering references to the State Constitution, State statutes, State rules and regulations and to the Miami-Dade County Code.</section>
+
+<section>Additionally, the Board of County Commissioners hereby authorizes the County Attorney to update the Code and County administrative regulations or rules to delete any provisions which, as a matter of law, have been preempted, and declared null and void by Section 790.33, Florida Statutes, as amended, entitled "Field of Regulation of Firearms and Ammunition Preempted." The County Attorney also is authorized to direct the codifier of the Code to notate any provision that, as a matter of law, has been preempted and declared null and void by Section 790.33, Florida Statutes, as amended.</section>
+
+<section>Except as provided in this section the County Attorney shall have no authority to administratively conform the Code wherein said amendments to the State Constitution, State statutes, State rules and regulations, and the Miami-Dade County Code substantively alter the provisions of the said Constitution, statutes, rules or regulations and/or Miami-Dade County Code provisions.</section>
+
+<section>Notwithstanding the foregoing, where conflicts in language by error or omission are found between provisions of the Code as originally enacted and as recodified, the original Code provisions shall govern and the county attorney is authorized to administratively amend such conflicts, omissions or errors to conform the new recodified Code with the original Code.</section>
+</section>
+</text></law>

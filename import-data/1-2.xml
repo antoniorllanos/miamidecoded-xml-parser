@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<law>
+<structure>
+<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='1.1' order_by='1.1' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
+</structure>
+<section_number>1-2</section_number>
+<catch_line>Definitions.</catch_line>
+<order_by>0000000002</order_by>
+<text>
+<section>Sec. 1-2. Definitions.
+<section>In construing the provisions of this Code, where the context will permit and no definition is provided herein, the definitions provided in Section 1.01, Florida Statutes shall apply.
+<section prefix='(a)'>The word "County" shall mean the County of Dade in the State of Florida.</section>
+
+<section prefix='(b)'>The words "County Commission" or "Board of County Commissioners" shall mean the Board of County Commissioners of Dade County, Florida, as constituted under and pursuant to the Home Rule Charter.</section>
+
+<section prefix='(c)'>The words "Manager" or "County Manager" shall mean the County Manager of Dade County, Florida.</section>
+
+<section prefix='(d)'>
+                     State. The words "the State" or "this State" shall be construed to mean the State of Florida.</section>
+
+<section prefix='(e)'>
+                     Titles. Wherever reference is made to officials, boards, departments and similar official bodies of the county by title only, i.e. Director of Public Works, Tax Collector, etc., such title shall be construed as if the words "of Dade County, Florida" followed it.</section>
+
+<section prefix='(f)'>
+                     Tense. Words used in the past or present tense include the future as well as the past and present.</section>
+
+<section prefix='(g)'>
+                     Preceding, following. The words "preceding" and "following" mean next before and next after, respectively.</section>
+
+<section prefix='(h)'>
+                     Shall. The word "shall" is always mandatory and not merely directory.</section>
+
+<section prefix='(i)'>
+                     Interpretation. In the interpretation and application of any provisions of this Code, it shall be held to be the minimum requirements adopted for the promotion of the public health, safety, comfort, convenience and general welfare. Where any provision of the Code imposes greater restrictions upon the subject matter than the general provisions imposed by the Code, the provision imposing the greater restriction or regulation shall be deemed to be controlling.</section>
+</section>
+</section>
+</text></law>
