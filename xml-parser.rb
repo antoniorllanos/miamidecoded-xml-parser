@@ -55,6 +55,7 @@ doc.xpath("book/level1").each do |part|
 							#section.xpath("para").each do |para|
 								#o.write(para.content)
 							#end
+							
 							o.write("</law>\n")
 							o.close
 							global_section_count+=1
@@ -82,6 +83,9 @@ doc.xpath("book/level1").each do |part|
 								section_parser.call(section,o)
 								o.write("</section>\n")
 								o.write("</text>")
+								if(!section.xpath("comment[@note='historynote']").empty?)
+									o.write("<history>#{section.xpath("comment[@note='historynote']")[0].content.strip}</history>")
+								end
 								#section.xpath("para").each do |para|
 									#o.write(para.content)
 								#end
