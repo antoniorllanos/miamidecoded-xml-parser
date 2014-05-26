@@ -3,7 +3,7 @@ def order_by(integer)
 end
 
 def order_structure(integer)
-	return integer.to_s+"0"*(5-integer.to_s.length)
+	return "0"*(5-integer.to_s.length)+integer.to_s
 end
 
 def structure_name(depth,part_count)

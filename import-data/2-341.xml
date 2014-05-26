@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 53' order_by='40000.20000.53000' level='3'>ARTICLE XXXVII. MIAMI-DADE WATER AND SEWER DEPARTMENT AND ADVISORY BOARD</unit>
+<unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 53' order_by='00004.00002.00053' level='3'>ARTICLE XXXVII. MIAMI-DADE WATER AND SEWER DEPARTMENT AND ADVISORY BOARD</unit>
 </structure>
 <section_number>2-341</section_number>
 <catch_line>Establishing Department; Director; organization and employees.</catch_line>
