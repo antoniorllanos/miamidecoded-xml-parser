@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='1.2' order_by='1.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='1.2.54' order_by='1.2.54' level='3'>ARTICLE XXXVIII. IMPOSITION OF MORATORIUM ON EXECUTION OF WATER SUPPLY CONTRACTS</unit>
+<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier='4.2.54' order_by='4.2.54' level='3'>ARTICLE XXXVIII. IMPOSITION OF MORATORIUM ON EXECUTION OF WATER SUPPLY CONTRACTS</unit>
 </structure>
 <section_number>2-352</section_number>
 <catch_line>Duty of County Manager to notify Clerk of Board of County Commissioners upon issuance of administrative order; placement of matter before Board for consideration and review after public hearing.</catch_line>
-<order_by>0000000476</order_by>
+<order_by>0000000532</order_by>
 <text>
 <section>Sec. 2-352. Duty of County Manager to notify Clerk of Board of County Commissioners upon issuance of administrative order; placement of matter before Board for consideration and review after public hearing.</section>
 </text>

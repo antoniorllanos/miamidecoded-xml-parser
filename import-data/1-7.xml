@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='1.1' order_by='1.1' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
+<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='4.1' order_by='4.1' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
 </structure>
 <section_number>1-7</section_number>
 <catch_line>[Certain provisions not applicable to DEFGH program.]</catch_line>
-<order_by>0000000011</order_by>
+<order_by>0000000067</order_by>
 <text>
 <section>Sec. 1-7. [Certain provisions not applicable to DEFGH program.]
 <section>Notwithstanding and prevailing over any other provision in the Code of Miami-Dade County, Florida to the contrary. Administrative Order 3-2, Code relating to local preference and Code relating to listing of first-tier subcontractors shall not apply to contracts for construction of the DEFGH Program and such contracts shall be exempt from the requirements thereof.</section>

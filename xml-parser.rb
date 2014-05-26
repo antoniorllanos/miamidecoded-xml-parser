@@ -22,7 +22,7 @@ section_parser=Proc.new do |section,o|
 end
 
 
-f=File.open("test_data.xml","r+")
+f=File.open("raw_dump.xml","r+")
 doc=Nokogiri::XML(f)
 global_section_count=1
 part_count=1
@@ -95,6 +95,33 @@ doc.xpath("book/level1").each do |part|
 								global_section_count+=1
 						end
 					else
+								depth=2
+								if chapter.xpath("title[1]").empty?
+									chapter_name=chapter.xpath('subtitle[1]')[0].content.strip
+								else 
+									chapter_name=chapter.xpath('title[1]')[0].content.strip+" "+chapter.xpath('subtitle[1]')[0].content.strip
+								end
+								o=File.open("import-data/#{chapter_name}.xml","w+")
+								o.write("<?xml version='1.0' encoding='utf-8'?>\n")
+								o.write("<law>\n<structure>\n")
+								o.write("<unit label='part' identifier='#{part_count.to_s}' order_by='#{part_count.to_s}' level='#{(depth-1).to_s}'>#{part.xpath('breadcrumbs/crumb[2]/caption')[0].content.strip}</unit>\n")
+								o.write("</structure>\n")
+								o.write("<section_number>#{chapter_name}</section_number>\n")
+								o.write("<order_by>#{order_by(global_section_count)}</order_by>\n")
+								o.write("<text>\n")
+								o.write("<section>#{chapter_name}")
+								section_parser.call(chapter,o)
+								o.write("</section>\n")
+								o.write("</text>")
+								if(!chapter.xpath("comment[@note='historynote']").empty?)
+									o.write("<history>#{chapter.xpath("comment[@note='historynote']")[0].content.strip}</history>")
+								end
+								#section.xpath("para").each do |para|
+									#o.write(para.content)
+								#end
+								o.write("</law>\n")
+								o.close
+								global_section_count+=1
 					end
 				end
 				chapter_count+=1

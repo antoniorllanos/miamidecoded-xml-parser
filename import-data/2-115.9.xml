@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='1.2' order_by='1.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='1.2.21' order_by='1.2.21' level='3'>ARTICLE XV. DEPARTMENT OF PLANNING, DEVELOPMENT AND REGULATION</unit>
+<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier='4.2.21' order_by='4.2.21' level='3'>ARTICLE XV. DEPARTMENT OF PLANNING, DEVELOPMENT AND REGULATION</unit>
 </structure>
 <section_number>2-115.9</section_number>
 <catch_line>Agricultural Land Use Plan—Relationship to County agencies, boards and departments.</catch_line>
-<order_by>0000000253</order_by>
+<order_by>0000000309</order_by>
 <text>
 <section>Sec. 2-115.9. Agricultural Land Use Plan—Relationship to County agencies, boards and departments.</section>
 </text>

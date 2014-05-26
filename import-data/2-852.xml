@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='1.2' order_by='1.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='1.2.80' order_by='1.2.80' level='3'>ARTICLE LXIV. EMPOWERMENT PLANNING AND DEVELOPMENT TRUST</unit>
+<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier='4.2.80' order_by='4.2.80' level='3'>ARTICLE LXIV. EMPOWERMENT PLANNING AND DEVELOPMENT TRUST</unit>
 </structure>
 <section_number>2-852</section_number>
 <catch_line>Governing body.</catch_line>
-<order_by>0000000612</order_by>
+<order_by>0000000668</order_by>
 <text>
 <section>Sec. 2-852. Governing body.</section>
 </text>

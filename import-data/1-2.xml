@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='1.1' order_by='1.1' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
+<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='4.1' order_by='4.1' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
 </structure>
 <section_number>1-2</section_number>
 <catch_line>Definitions.</catch_line>
-<order_by>0000000002</order_by>
+<order_by>0000000058</order_by>
 <text>
 <section>Sec. 1-2. Definitions.
 <section>In construing the provisions of this Code, where the context will permit and no definition is provided herein, the definitions provided in Section 1.01, Florida Statutes shall apply.

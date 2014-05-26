@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='1' order_by='1' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='1.2' order_by='1.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='1.2.15' order_by='1.2.15' level='3'>ARTICLE XI. PUBLIC WELFARE DEPARTMENT</unit>
+<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier='4.2.15' order_by='4.2.15' level='3'>ARTICLE XI. PUBLIC WELFARE DEPARTMENT</unit>
 </structure>
 <section_number>2-88</section_number>
 <catch_line>Powers and duties.</catch_line>
-<order_by>0000000171</order_by>
+<order_by>0000000227</order_by>
 <text>
 <section>Sec. 2-88. Powers and duties.</section>
 </text>
