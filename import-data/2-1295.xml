@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.106' order_by='4.2.106' level='3'>ARTICLE LXXXVIII. CENTURY PARC COMMUNITY DEVELOPMENT DISTRICT</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 106' order_by='40000.20000.10600' level='3'>ARTICLE LXXXVIII. CENTURY PARC COMMUNITY DEVELOPMENT DISTRICT</unit>
 </structure>
 <section_number>2-1295</section_number>
 <catch_line>[Bond validation.]</catch_line>

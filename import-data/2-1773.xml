@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.135' order_by='4.2.135' level='3'>ARTICLE CXVII. 7TH AVENUE CORRIDOR COMMUNITY REDEVELOPMENT AND REVITALIZATION TRUST FUND</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 135' order_by='40000.20000.13500' level='3'>ARTICLE CXVII. 7TH AVENUE CORRIDOR COMMUNITY REDEVELOPMENT AND REVITALIZATION TRUST FUND</unit>
 </structure>
 <section_number>2-1773</section_number>
 <catch_line>Same—Duration.</catch_line>

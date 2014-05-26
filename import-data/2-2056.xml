@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.152' order_by='4.2.152' level='3'>ARTICLE CXXXIII. MIAMI-DADE HOUSING CIVIL RIGHTS OVERSIGHT BOARD</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 152' order_by='40000.20000.15200' level='3'>ARTICLE CXXXIII. MIAMI-DADE HOUSING CIVIL RIGHTS OVERSIGHT BOARD</unit>
 </structure>
 <section_number>2-2056</section_number>
 <catch_line>Powers and Duties.</catch_line>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.99' order_by='4.2.99' level='3'>ARTICLE LXXXI. VIZCAYA GARDENS AND MUSEUM TRUST</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 99' order_by='40000.20000.99000' level='3'>ARTICLE LXXXI. VIZCAYA GARDENS AND MUSEUM TRUST</unit>
 </structure>
 <section_number>2-1122</section_number>
 <catch_line>Replacement of policy committee by the Trust.</catch_line>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.34' order_by='4.2.34' level='3'>ARTICLE XXV. CHILDREN'S SERVICES COUNCIL</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 34' order_by='40000.20000.34000' level='3'>ARTICLE XXV. CHILDREN'S SERVICES COUNCIL</unit>
 </structure>
 <section_number>2-234</section_number>
 <catch_line>Appointment and removal of Commission-appointed Council members.</catch_line>

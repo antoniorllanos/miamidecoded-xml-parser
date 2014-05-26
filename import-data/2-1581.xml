@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.124' order_by='4.2.124' level='3'>ARTICLE CVI. ISLANDS AT DORAL (SW) COMMUNITY DEVELOPMENT DISTRICT</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 124' order_by='40000.20000.12400' level='3'>ARTICLE CVI. ISLANDS AT DORAL (SW) COMMUNITY DEVELOPMENT DISTRICT</unit>
 </structure>
 <section_number>2-1581</section_number>
 <catch_line>County rates, fees and charges applicable to district.</catch_line>

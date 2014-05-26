@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.136' order_by='4.2.136' level='3'>ARTICLE CXVIII. OFFICE OF INTERGOVERNMENTAL AFFAIRS</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 136' order_by='40000.20000.13600' level='3'>ARTICLE CXVIII. OFFICE OF INTERGOVERNMENTAL AFFAIRS</unit>
 </structure>
 <section_number>2-1786</section_number>
 <catch_line>Term of Office.</catch_line>

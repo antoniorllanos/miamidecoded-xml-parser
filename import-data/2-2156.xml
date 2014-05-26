@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.167' order_by='4.2.167' level='3'>ARTICLE CXLVIII. OPA-LOCKA COMMUNITY REDEVELOPMENT AND REVITALIZATION TRUST FUND</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 167' order_by='40000.20000.16700' level='3'>ARTICLE CXLVIII. OPA-LOCKA COMMUNITY REDEVELOPMENT AND REVITALIZATION TRUST FUND</unit>
 </structure>
 <section_number>2-2156</section_number>
 <catch_line>Financial audit of fund.</catch_line>

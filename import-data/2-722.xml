@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <law>
 <structure>
-<unit label='part' identifier='4' order_by='4' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier='4.2' order_by='4.2' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier='4.2.74' order_by='4.2.74' level='3'>ARTICLE LVIII. MIAMI-DADE COUNTY AFFIRMATIVE ACTION ADVISORY BOARD</unit>
+<unit label='part' identifier=' 3' order_by='40000' level='1'>PART III CODE OF ORDINANCES</unit>
+<unit label='chapter' identifier=' -2' order_by='40000.20000' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 74' order_by='40000.20000.74000' level='3'>ARTICLE LVIII. MIAMI-DADE COUNTY AFFIRMATIVE ACTION ADVISORY BOARD</unit>
 </structure>
 <section_number>2-722</section_number>
 <catch_line>Purpose.</catch_line>
