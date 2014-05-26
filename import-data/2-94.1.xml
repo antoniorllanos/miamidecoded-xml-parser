@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 16' order_by='00004.00002.00016' level='3'>ARTICLE XII. Miami-Dade POLICE DEPARTMENT</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00016' order_by='00016' level='3'>ARTICLE XII. Miami-Dade POLICE DEPARTMENT</unit>
 </structure>
 <section_number>2-94.1</section_number>
 <catch_line>Law Enforcement Services Regarding Investigations of Criminal Violations of Law by the County Mayor and County Commissioner and Investigations of Public Corruption By Non-elected County Officials and Employees.</catch_line>

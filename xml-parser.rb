@@ -13,7 +13,7 @@ def structure_name(depth,part_count)
 		return ["PART","CHAPTER","ARTICLE"][depth-1]
 	end
 end
-
+require 'roman-numerals'
 require 'nokogiri'
 
 section_parser=Proc.new do |section,o|
@@ -57,8 +57,8 @@ doc.xpath("book/level1").each do |part|
 							o.write("<?xml version='1.0' encoding='utf-8'?>\n")
 							o.write("<law>\n<structure>\n")
 							o.write("<unit label='part' identifier='#{structure_name(1,part_count)} #{(part_count-1).to_s}' order_by='#{order_structure(part_count)}' level='#{(depth-3).to_s}'>#{part.xpath('breadcrumbs/crumb[2]/caption')[0].content.strip}</unit>\n")
-							o.write("<unit label='chapter' identifier='#{structure_name(2,part_count)} #{(chapter_count-4).to_s}' order_by='#{order_structure(part_count)+'.'+order_structure(chapter_count)}' level='#{(depth-2).to_s}'>#{chapter.xpath('breadcrumbs/crumb[3]/caption')[0].content.strip}</unit>\n")
-							o.write("<unit label='article' identifier='#{structure_name(3,part_count)} #{article_count.to_s}' order_by='#{order_structure(part_count)+'.'+order_structure(chapter_count)+'.'+order_structure(article_count)}' level='#{(depth-1).to_s}'>#{article.xpath('breadcrumbs/crumb[4]/caption')[0].content.strip}</unit>\n")
+							o.write("<unit label='chapter' identifier='#{structure_name(2,part_count)} #{(chapter_count-4).to_s}' order_by='#{order_structure(chapter_count)}' level='#{(depth-2).to_s}'>#{chapter.xpath('breadcrumbs/crumb[3]/caption')[0].content.strip}</unit>\n")
+							o.write("<unit label='article' identifier='#{structure_name(3,part_count)} #{order_structure(article_count)}' order_by='#{order_structure(article_count)}' level='#{(depth-1).to_s}'>#{article.xpath('breadcrumbs/crumb[4]/caption')[0].content.strip}</unit>\n")
 							o.write("</structure>\n")
 							o.write("<section_number>#{section_name}</section_number>\n")
 							o.write("<catch_line>#{section.xpath('subtitle[1]')[0].content.strip}</catch_line>\n")
@@ -85,7 +85,7 @@ doc.xpath("book/level1").each do |part|
 								o.write("<?xml version='1.0' encoding='utf-8'?>\n")
 								o.write("<law>\n<structure>\n")
 								o.write("<unit label='part' identifier='#{structure_name(1,part_count)} #{(part_count-1).to_s}' order_by='#{order_structure(part_count)}' level='#{(depth-2).to_s}'>#{part.xpath('breadcrumbs/crumb[2]/caption')[0].content.strip}</unit>\n")
-								o.write("<unit label='chapter' identifier='#{structure_name(2,part_count)} #{(chapter_count-4).to_s}' order_by='#{order_structure(part_count)+'.'+order_structure(chapter_count)}' level='#{(depth-1).to_s}'>#{chapter.xpath('breadcrumbs/crumb[3]/caption')[0].content.strip}</unit>\n")
+								o.write("<unit label='chapter' identifier='#{structure_name(2,part_count)} #{order_structure(chapter_count-4)}' order_by='#{order_structure(chapter_count)}' level='#{(depth-1).to_s}'>#{chapter.xpath('breadcrumbs/crumb[3]/caption')[0].content.strip}</unit>\n")
 								o.write("</structure>\n")
 								o.write("<section_number>#{section_name}</section_number>\n")
 								o.write("<catch_line>#{section.xpath('subtitle[1]')[0].content.strip}</catch_line>\n")
@@ -117,7 +117,7 @@ doc.xpath("book/level1").each do |part|
 								o.write("<?xml version='1.0' encoding='utf-8'?>\n")
 								o.write("<law>\n<structure>\n")
 								o.write("<unit label='part' identifier='#{structure_name(1,part_count)} #{(part_count-1).to_s}' order_by='#{order_structure(part_count)}' level='#{(depth-1).to_s}'>#{part.xpath('breadcrumbs/crumb[2]/caption')[0].content.strip}</unit>\n")
-								o.write("<unit label='chapter' identifier='chapter_name' order_by='#{order_structure(part_count)+'.'+order_structure(chapter_count)}' level='#{(depth-1).to_s}'>#{chapter.xpath('breadcrumbs/crumb[3]/caption')[0].content.strip}</unit>\n")
+								o.write("<unit label='chapter' identifier='chapter_name' order_by='#{order_structure(chapter_count)}' level='#{(depth-1).to_s}'>#{chapter.xpath('breadcrumbs/crumb[3]/caption')[0].content.strip}</unit>\n")
 								o.write("</structure>\n")
 								o.write("<section_number>#{chapter_name}</section_number>\n")
 								o.write("<order_by>#{order_by(global_section_count)}</order_by>\n")

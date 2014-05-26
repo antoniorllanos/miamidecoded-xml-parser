@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 155' order_by='00004.00002.00155' level='3'>ARTICLE CXXXVI. COMPENSATION AND BENEFITS REVIEW COMMITTEE</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00155' order_by='00155' level='3'>ARTICLE CXXXVI. COMPENSATION AND BENEFITS REVIEW COMMITTEE</unit>
 </structure>
 <section_number>2-2072</section_number>
 <catch_line>Duties of the review committee.</catch_line>

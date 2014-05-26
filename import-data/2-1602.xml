@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 125' order_by='00004.00002.00125' level='3'>ARTICLE CVII. MIAMI-DADE SPORTS COMMISSION</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00125' order_by='00125' level='3'>ARTICLE CVII. MIAMI-DADE SPORTS COMMISSION</unit>
 </structure>
 <section_number>2-1602</section_number>
 <catch_line>Promotion and Attraction of Sports.</catch_line>

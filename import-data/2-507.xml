@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 64' order_by='00004.00002.00064' level='3'>ARTICLE XLVIII. MIAMI-DADE ECONOMIC ADVOCACY TRUST</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00064' order_by='00064' level='3'>ARTICLE XLVIII. MIAMI-DADE ECONOMIC ADVOCACY TRUST</unit>
 </structure>
 <section_number>2-507</section_number>
 <catch_line>Reserved.</catch_line>

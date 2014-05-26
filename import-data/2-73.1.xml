@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 11' order_by='00004.00002.00011' level='3'>ARTICLE VII. TAX REVIEW BOARD</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00011' order_by='00011' level='3'>ARTICLE VII. TAX REVIEW BOARD</unit>
 </structure>
 <section_number>2-73.1</section_number>
 <catch_line>Reserved.</catch_line>

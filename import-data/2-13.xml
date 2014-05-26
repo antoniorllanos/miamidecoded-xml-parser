@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 5' order_by='00004.00002.00005' level='3'>ARTICLE II. LAW DEPARTMENT</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00005' order_by='00005' level='3'>ARTICLE II. LAW DEPARTMENT</unit>
 </structure>
 <section_number>2-13</section_number>
 <catch_line>County Attorney—Appointment; term; compensation; appointment and removal of assistants and employees; qualifications.</catch_line>

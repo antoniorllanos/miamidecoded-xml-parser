@@ -2,7 +2,7 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -3' order_by='00004.00001' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
+<unit label='chapter' identifier=' 000-3' order_by='00001' level='2'>Chapter 1 GENERAL PROVISIONS</unit>
 </structure>
 <section_number>1-2</section_number>
 <catch_line>Definitions.</catch_line>

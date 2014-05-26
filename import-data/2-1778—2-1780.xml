@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 135' order_by='00004.00002.00135' level='3'>ARTICLE CXVII. 7TH AVENUE CORRIDOR COMMUNITY REDEVELOPMENT AND REVITALIZATION TRUST FUND</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00135' order_by='00135' level='3'>ARTICLE CXVII. 7TH AVENUE CORRIDOR COMMUNITY REDEVELOPMENT AND REVITALIZATION TRUST FUND</unit>
 </structure>
 <section_number>2-1778—2-1780</section_number>
 <catch_line>Reserved.</catch_line>

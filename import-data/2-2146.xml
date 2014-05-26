@@ -2,8 +2,8 @@
 <law>
 <structure>
 <unit label='part' identifier=' 3' order_by='00004' level='1'>PART III CODE OF ORDINANCES</unit>
-<unit label='chapter' identifier=' -2' order_by='00004.00002' level='2'>Chapter 2 ADMINISTRATION</unit>
-<unit label='article' identifier=' 166' order_by='00004.00002.00166' level='3'>ARTICLE CXLVII. SOUTH MUNICIPAL ADVISORY COMMITTEE B</unit>
+<unit label='chapter' identifier=' -2' order_by='00002' level='2'>Chapter 2 ADMINISTRATION</unit>
+<unit label='article' identifier=' 00166' order_by='00166' level='3'>ARTICLE CXLVII. SOUTH MUNICIPAL ADVISORY COMMITTEE B</unit>
 </structure>
 <section_number>2-2146</section_number>
 <catch_line>Created.</catch_line>
