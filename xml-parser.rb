@@ -19,8 +19,8 @@ require 'nokogiri'
 section_parser=Proc.new do |section,o|
 	section.xpath('para|listitem').each do |item|
 		if item.name=="listitem"
-			prefix=item.xpath('incr')[0].content
-			content=item.xpath('content')[0].content
+			prefix=item.xpath('incr')[0].content.strip
+			content=item.xpath('content')[0].content.strip
 			o.write("\n<section prefix='#{prefix}'>#{content}")
 			section_parser.call(item,o)
 			o.write("</section>\n")
@@ -63,11 +63,14 @@ doc.xpath("book/level1").each do |part|
 							o.write("<section_number>#{section_name}</section_number>\n")
 							o.write("<catch_line>#{section.xpath('subtitle[1]')[0].content.strip}</catch_line>\n")
 							o.write("<order_by>#{order_by(global_section_count)}</order_by>\n")
-							o.write("<text>\n<section>#{section.xpath('title[1]')[0].content.strip+' '+section.xpath('subtitle[1]')[0].content.strip}</section>\n</text>\n")
-							#section.xpath("para").each do |para|
-								#o.write(para.content)
-							#end
-							
+							o.write("<text>\n")
+							o.write("<section>#{section.xpath('title[1]')[0].content.strip+' '+section.xpath('subtitle[1]')[0].content.strip}")
+							section_parser.call(section,o)
+							o.write("</section>\n")
+							o.write("</text>\n")
+							if(!section.xpath("comment[@note='historynote']").empty?)
+								o.write("<history>#{section.xpath("comment[@note='historynote']")[0].content.strip}</history>")
+							end							
 							o.write("</law>\n")
 							o.close
 							global_section_count+=1

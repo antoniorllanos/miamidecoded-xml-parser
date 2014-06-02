@@ -9,6 +9,10 @@
 <catch_line>Selective service registration for applicants for county employment.</catch_line>
 <order_by>0000000157</order_by>
 <text>
-<section>Sec. 2-11.29. Selective service registration for applicants for county employment.</section>
+<section>Sec. 2-11.29. Selective service registration for applicants for county employment.
+<section prefix='(1)'>No person between the ages of eighteen (18) and twenty-six (26), who is required to register with the Selective Service System under the Military Selective Service Act, 50 U.S.C. App. 453, may be employed by the County or any of its agencies or instrumentalities without proof of such registration.</section>
+
+<section prefix='(2)'>The County or the agency or instrumentality, as applicable, shall provide for a review, when requested by the applicant or employee, of any denial of employment for reasons of noncompliance with selective service registration requirements.</section>
+</section>
 </text>
-</law>
+<history>(Ord. No. 99-117, § 1, 9-21-99)</history></law>

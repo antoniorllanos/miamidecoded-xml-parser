@@ -9,6 +9,12 @@
 <catch_line>Use of the North American Industry Classification System (NAICS) by County departments.</catch_line>
 <order_by>0000000070</order_by>
 <text>
-<section>Sec. 2-2.1. Use of the North American Industry Classification System (NAICS) by County departments.</section>
+<section>Sec. 2-2.1. Use of the North American Industry Classification System (NAICS) by County departments.
+<section>By no later than October 1, 2010, all County departments shall:
+<section prefix='(1)'>Require businesses to provide the North American Industry Classification System (NAICS) code whenever information is collected for contracts, procurement, permits, licenses, taxes, enforcement actions and all other purposes for which information is collected by County departments from businesses; and</section>
+
+<section prefix='(2)'>Use NAICS codes for any business classification system that County departments use except where prohibited by federal or state law. In cases where the use of NAICS codes is prohibited by federal or state law, County departments shall maintain NAICS code information for individual businesses in a format in which individual businesses can be sorted by NAICS codes.</section>
+</section>
+</section>
 </text>
-</law>
+<history>(Ord. No. 09-77, § 1, 9-1-09)</history></law>
